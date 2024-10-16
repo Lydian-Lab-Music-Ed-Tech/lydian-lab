@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-	scroll-behavior: smooth;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	font-family: 'Alexandria', sans-serif;
+	box-sizing: border-box;
 }
 
 :root {
@@ -21,7 +29,96 @@ html {
 	--primary100: #ffffff;
 }
 
-* {
-	font-family: 'Alexandria', sans-serif;
-	box-sizing: border-box;
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: var(--primary97);
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+/* Typography */
+.heading-1 {
+	font-size: 64px;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+.heading-3 {
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: 2.5px;
+}
+.sub-heading {
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.sub-heading-bold {
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+.small-device-heading {
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+.paragraph-large {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.paragraph-large-bold {
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 0.75px;
+}
+.paragraph-regular {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.paragraph-small {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.email-text {
+	font-family: 'Red Hat Mono', monospace;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
 }
