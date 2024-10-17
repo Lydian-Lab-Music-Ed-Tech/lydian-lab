@@ -10,7 +10,7 @@
 
 <header
 	class={'sticky top-0 duration-200 px-6 flex justify-evenly items-center bg-transparent sm:justify-start' +
-		(y > 0 ? ' py-4 opacity-15' : ' py-6 opacity-100')}
+		(y > 0 ? ' pt-4 opacity-15' : ' pt-6 opacity-100')}
 >
 	<div class="flex gap-8 sm:mx-auto sm:gap-12">
 		{#each tabs as tab, index}

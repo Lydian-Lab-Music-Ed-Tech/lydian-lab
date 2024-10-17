@@ -57,6 +57,6 @@
 	.svg-class {
 		width: 70%;
 		height: 70%;
-		margin: 7% auto;
+		margin: auto;
 	}
 </style>

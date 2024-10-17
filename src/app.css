@@ -128,11 +128,12 @@ h6 {
 	fill: none;
 	top: 10%;
 	left: 0%;
-	animation: fill 0.8s ease forwards 2.3s;
+	animation: fill 0.8s ease forwards 2s;
 }
 
 #title path {
-	stroke: black;
+	stroke: var(--primary08);
+	stroke-width: 1;
 	stroke-dasharray: 1750;
 	stroke-dashoffset: 1750;
 	animation: line-animation 1.5s ease forwards;
