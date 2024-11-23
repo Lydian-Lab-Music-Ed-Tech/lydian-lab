@@ -3,12 +3,12 @@
 </script>
 
 <main>
-	<div class="z-[-1] my-8">
+	<div class="flex items-end z-[-1] my-8">
 		<Title />
 	</div>
 	<div id="section-list">
 		<section id="about" class="bg-primary94 py-4">
-			<h1 class="text-4xl text-center py-8">About</h1>
+			<h1 class="text-2xl font-medium tracking-wider text-center py-8">ABOUT US</h1>
 			<div class="w-1/2 mx-auto">
 				<p>
 					We are a small web development agency specializing in building custom solutions for our
@@ -34,7 +34,7 @@
 			</div>
 		</section>
 		<section id="services" class="bg-primary97 py-4">
-			<h1 class="text-4xl text-center py-8">Services</h1>
+			<h1 class="text-2xl font-medium tracking-wider text-center py-8">SERVICES</h1>
 			<div class="w-1/2 mx-auto">
 				<p>
 					It is important to take care of the patient, to be followed by the patient, but it will
@@ -53,7 +53,7 @@
 			</div>
 		</section>
 		<section id="contact" class="bg-primary94 py-4">
-			<h1 class="text-4xl text-center py-8">Contact</h1>
+			<h1 class="text-2xl font-medium tracking-wider text-center py-8">CONTACT</h1>
 			<div class="w-1/2 mx-auto">
 				<p>
 					It is important to take care of the patient, to be followed by the patient, but it will
