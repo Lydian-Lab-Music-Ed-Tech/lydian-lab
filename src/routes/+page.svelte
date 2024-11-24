@@ -6,11 +6,11 @@
 	<div class="flex items-end my-8">
 		<Title />
 	</div>
-	<div id="section-list">
-		<section id="about" class="relative overflow-hidden">
+	<div id="section-list" class="flex flex-col -space-y-16">
+		<section id="about" class="relative overflow-hidden py-24">
 			<!-- Skewed background -->
 			<div class="absolute inset-0">
-				<div class="w-full h-full bg-primary78 skewed-background-about"></div>
+				<div class="w-full h-full min-h-[700px] bg-primary94 skewed-background-about"></div>
 			</div>
 
 			<!-- Content -->
@@ -48,9 +48,9 @@
 				</div>
 			</div>
 		</section>
-		<section id="services" class="relative overflow-hidden">
+		<section id="services" class="relative overflow-hidden py-24">
 			<div class="absolute inset-0">
-				<div class="w-full h-full bg-primary88 skewed-background-services"></div>
+				<div class="w-full h-full min-h-[700px] bg-primary97 skewed-background-services"></div>
 			</div>
 			<div class="relative">
 				<h1 class="text-2xl font-medium tracking-wider text-center py-8">SERVICES</h1>
@@ -63,9 +63,9 @@
 				</div>
 			</div>
 		</section>
-		<section id="contact" class="relative overflow-hidden">
+		<section id="contact" class="relative overflow-hidden py-24">
 			<div class="absolute inset-0">
-				<div class="w-full h-full bg-primary78 skewed-background-contact"></div>
+				<div class="w-full h-full min-h-[700px] bg-primary94 skewed-background-contact"></div>
 			</div>
 			<div class="relative">
 				<h1 class="text-2xl font-medium tracking-wider text-center py-8">CONTACT</h1>
@@ -81,18 +81,20 @@
 
 <style>
 	.skewed-background-about {
-		clip-path: polygon(0 0%, 100% 5%, 100% 100%, 0% 95%);
+		clip-path: polygon(0 0%, 100% 5%, 100% 95%, 0% 100%);
 	}
+
 	.skewed-background-services {
-		clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 85%);
+		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
 	}
+
 	.skewed-background-contact {
-		clip-path: polygon(0 0%, 100% 35%, 100% 100%, 0% 65%);
+		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
 	}
-	#section-list section {
+	/* #section-list section {
 		animation: linear animate-in-and-out;
 		animation-timeline: view();
-	}
+	} */
 
 	/* .revealing-image {
 		view-timeline-name: --revealing-image;
@@ -113,7 +115,7 @@
 		}
 	} */
 
-	@keyframes animate-in-and-out {
+	/* @keyframes animate-in-and-out {
 		entry 0% {
 			opacity: 0;
 			transform: translateY(100%);
@@ -131,5 +133,5 @@
 			opacity: 0;
 			transform: translateY(-100%);
 		}
-	}
+	} */
 </style>
