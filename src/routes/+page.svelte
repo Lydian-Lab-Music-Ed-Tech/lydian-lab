@@ -7,14 +7,14 @@
 		<Title />
 	</div>
 	<div id="section-list" class="flex flex-col -space-y-16">
-		<section id="about" class="relative overflow-hidden py-24">
-			<!-- Skewed background -->
-			<div class="absolute inset-0">
+		<section id="about" class="relative py-24">
+			<!-- Skewed background with contained overflow -->
+			<div class="absolute inset-0 overflow-hidden">
 				<div class="w-full h-full min-h-[700px] bg-primary94 skewed-background-about"></div>
 			</div>
 
-			<!-- Content -->
-			<div class="relative">
+			<!-- Content with working animations -->
+			<div class="relative z-10">
 				<h1 class="text-2xl font-medium tracking-wider text-center py-8">ABOUT US</h1>
 				<div class="w-3/4 mx-auto">
 					<div class="flex justify-between gap-24">
@@ -103,7 +103,7 @@
 		animation-timeline: view();
 	} */
 
-	/* .revealing-image {
+	.revealing-image {
 		view-timeline-name: --revealing-image;
 		view-timeline-axis: block;
 		animation: linear reveal both;
@@ -120,7 +120,7 @@
 			opacity: 1;
 			clip-path: inset(0% 0% 0% 0%);
 		}
-	} */
+	}
 
 	/* @keyframes animate-in-and-out {
 		entry 0% {

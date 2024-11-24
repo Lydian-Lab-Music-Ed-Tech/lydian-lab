@@ -142,59 +142,76 @@ h6 {
 #title path.fill-border {
 	animation: fill-border 3s ease forwards;
 }
-
-#title path:nth-child(1) {
+/* L line */
+#title path:nth-child(2) {
 	animation-delay: 0s;
 }
-#title path:nth-child(2) {
-	animation-delay: 0.1s;
-}
-#title path:nth-child(3) {
+/* Y line */
+#title path:nth-child(1) {
 	animation-delay: 0.2s;
 }
-#title path:nth-child(4) {
-	animation-delay: 0.3s;
-}
-#title path:nth-child(5) {
+/* D line */
+#title path:nth-child(10) {
 	animation-delay: 0.4s;
 }
-#title path:nth-child(6) {
-	animation-delay: 0.5s;
-}
-#title path:nth-child(7) {
+/* I line */
+#title path:nth-child(9) {
 	animation-delay: 0.6s;
 }
-#title path:nth-child(8) {
-	animation-delay: 0.7s;
-}
-#title path:nth-child(9) {
+/* A line */
+#title path:nth-child(6) {
 	animation-delay: 0.8s;
 }
-#title path:nth-child(10) {
-	animation-delay: 0.9s;
-}
-#title path:nth-child(11) {
+/* N line */
+#title path:nth-child(5) {
 	animation-delay: 1s;
 }
+/* l line */
+#title path:nth-child(15) {
+	animation-delay: 1.2s;
+}
+/* a line */
+#title path:nth-child(14) {
+	animation-delay: 1.4s;
+}
+/* b line */
+#title path:nth-child(13) {
+	animation-delay: 1.5s;
+}
+/* L */
+#title path:nth-child(4) {
+	animation-delay: 0.9s;
+}
+/* Y */
+#title path:nth-child(3) {
+	animation-delay: 1s;
+}
+/* D */
 #title path:nth-child(12) {
 	animation-delay: 1.1s;
 }
-#title path:nth-child(13) {
+/* I */
+#title path:nth-child(11) {
 	animation-delay: 1.2s;
 }
-#title path:nth-child(14) {
+/* A */
+#title path:nth-child(8) {
 	animation-delay: 1.3s;
 }
-#title path:nth-child(15) {
+/* N */
+#title path:nth-child(7) {
 	animation-delay: 1.4s;
 }
-#title path:nth-child(16) {
+/* l */
+#title path:nth-child(18) {
 	animation-delay: 1.5s;
 }
+/* a */
 #title path:nth-child(17) {
 	animation-delay: 1.6s;
 }
-#title path:nth-child(18) {
+/* b */
+#title path:nth-child(16) {
 	animation-delay: 1.7s;
 }
 
