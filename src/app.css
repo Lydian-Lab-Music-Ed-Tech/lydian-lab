@@ -139,6 +139,10 @@ h6 {
 	animation: line-animation 1.5s ease forwards;
 }
 
+#title path.fill-border {
+	animation: fill-border 3s ease forwards;
+}
+
 #title path:nth-child(1) {
 	animation-delay: 0s;
 }
@@ -207,5 +211,13 @@ h6 {
 	}
 	to {
 		fill: var(--primary88);
+	}
+}
+@keyframes fill-border {
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: var(--primary18);
 	}
 }

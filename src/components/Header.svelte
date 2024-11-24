@@ -14,8 +14,13 @@
 >
 	<div class="flex gap-8 sm:gap-12">
 		{#each tabs as tab, index}
-			<a href={tab.link} class="duration-200 hover:text-primary28">
-				<p>{tab.name}</p>
+			<a
+				href={tab.link}
+				class="text-lg text-primary18 font-medium tracking-wide duration-200 hover:text-primary58"
+			>
+				<p>
+					{tab.name}
+				</p>
 			</a>
 		{/each}
 	</div>
