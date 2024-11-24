@@ -45,6 +45,13 @@
 							alt="Kasey Knudsen profile headshot"
 						/>
 					</div>
+					<div class="revealing-image relative grid place-items-center py-8">
+						<img
+							class="object-cover max-h-[45vh]"
+							src={'images/Brett-Potrero-BW.jpeg'}
+							alt="Brett Eastman profile headshot"
+						/>
+					</div>
 				</div>
 			</div>
 		</section>
