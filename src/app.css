@@ -16,11 +16,11 @@
 
 :root {
 	--primary00: #000000;
-	--primary08: #1a170f;
-	--primary18: #3a3322;
-	--primary28: #5b4f34;
-	--primary38: #7b6b47;
-	--primary58: #b19f77;
+	--primary08: #161513;
+	--primary18: #312f2b;
+	--primary28: #4c4943;
+	--primary38: #67635b;
+	--primary48: #827d73;
 	--primary68: #c3b697;
 	--primary78: #d6cdb8;
 	--primary88: #e9e4d8;
@@ -37,6 +37,14 @@ html,
 body {
 	height: 100%;
 	background-color: var(--primary97);
+	font-family: 'Alexandria', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+	html,
+	body {
+		background-color: var(--primary08);
+	}
 }
 
 body {
@@ -236,5 +244,27 @@ h6 {
 	}
 	to {
 		fill: var(--primary18);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	#title path {
+		stroke: var(--primary88);
+	}
+	@keyframes fill {
+		from {
+			fill: transparent;
+		}
+		to {
+			fill: var(--primary28);
+		}
+	}
+	@keyframes fill-border {
+		from {
+			fill: transparent;
+		}
+		to {
+			fill: var(--primary88);
+		}
 	}
 }

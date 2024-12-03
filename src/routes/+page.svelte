@@ -6,11 +6,13 @@
 	<div class="flex items-end my-8">
 		<Title />
 	</div>
-	<div id="section-list" class="flex flex-col -space-y-16">
+	<div id="section-list" class="flex flex-col -space-y-16 text-primary00 dark:text-primary94">
 		<section id="about" class="relative py-24">
 			<!-- Skewed background with contained overflow -->
 			<div class="absolute inset-0 overflow-hidden">
-				<div class="w-full h-full min-h-[700px] bg-primary94 skewed-background-about"></div>
+				<div
+					class="w-full h-full min-h-[700px] bg-primary94 dark:bg-primary48 skewed-background-about"
+				></div>
 			</div>
 
 			<!-- Content with working animations -->
@@ -57,7 +59,9 @@
 		</section>
 		<section id="services" class="relative overflow-hidden py-24">
 			<div class="absolute inset-0">
-				<div class="w-full h-full min-h-[700px] bg-primary97 skewed-background-services"></div>
+				<div
+					class="w-full h-full min-h-[700px] bg-primary97 dark:bg-primary38 skewed-background-services"
+				></div>
 			</div>
 			<div class="relative">
 				<h1 class="text-2xl font-medium tracking-wider text-center py-8">SERVICES</h1>
@@ -72,7 +76,9 @@
 		</section>
 		<section id="contact" class="relative overflow-hidden py-24">
 			<div class="absolute inset-0">
-				<div class="w-full h-full min-h-[700px] bg-primary94 skewed-background-contact"></div>
+				<div
+					class="w-full h-full min-h-[700px] bg-primary94 dark:bg-primary48 skewed-background-contact"
+				></div>
 			</div>
 			<div class="relative">
 				<h1 class="text-2xl font-medium tracking-wider text-center py-8">CONTACT</h1>
@@ -92,11 +98,13 @@
 	}
 
 	.skewed-background-services {
-		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
+		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 95%);
+		margin-top: 200px;
 	}
 
 	.skewed-background-contact {
-		clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
+		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 95%);
+		margin-top: 100px;
 	}
 	/* #section-list section {
 		animation: linear animate-in-and-out;

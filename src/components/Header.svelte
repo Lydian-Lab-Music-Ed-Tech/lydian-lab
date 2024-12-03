@@ -16,7 +16,7 @@
 		{#each tabs as tab, index}
 			<a
 				href={tab.link}
-				class="text-lg text-primary18 font-medium tracking-wide duration-200 hover:text-primary58"
+				class="text-lg text-primary18 font-medium tracking-wide duration-200 text-primary00 dark:text-primary94 hover:text-primary48"
 			>
 				<p>
 					{tab.name}
