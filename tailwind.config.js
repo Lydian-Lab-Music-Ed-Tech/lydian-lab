@@ -38,7 +38,7 @@ export default {
 			fontWeight: {
 				light: 300,
 				normal: 400,
-				medium: 500, // currently this is no different from normal
+				medium: 500,
 				bold: 700
 			}
 		}
