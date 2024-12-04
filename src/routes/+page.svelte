@@ -11,7 +11,7 @@
 			<!-- Skewed background with contained overflow -->
 			<div class="absolute inset-0 overflow-hidden">
 				<div
-					class="w-full h-full min-h-[700px] bg-primary94 dark:bg-primary48 skewed-background-about"
+					class="w-full h-full min-h-[700px] bg-primary88 dark:bg-primary48 skewed-background-about"
 				></div>
 			</div>
 
@@ -59,13 +59,13 @@
 		<section id="services" class="relative overflow-hidden py-24 h-[700px]">
 			<div class="absolute inset-0">
 				<div
-					class="w-full h-full min-h-[700px] bg-primary97 dark:bg-primary48 skewed-background-services"
+					class="w-full h-full min-h-[700px] bg-primary88 dark:bg-primary48 skewed-background-services"
 				></div>
 			</div>
 			<div class="relative">
-				<div class="w-1/4 mx-auto">
-					<h1 class="text-xl font-medium tracking-wider py-10">SERVICES</h1>
-					<p class="text-base font-normal tracking-wide leading-7">
+				<div class="w-3/4 sm:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto">
+					<h1 class="text-xl font-medium tracking-wider py-10 text-center">SERVICES</h1>
+					<p class="text-base font-light tracking-wide leading-7">
 						We build custom music exam web applications. If you are a music educator or a small
 						business owner who needs this type of service, please reach out to us for a custom order
 						and quote.
@@ -76,15 +76,19 @@
 		<section id="contact" class="relative overflow-hidden py-24 h-[700px]">
 			<div class="absolute inset-0">
 				<div
-					class="w-full h-full min-h-[700px] bg-primary94 dark:bg-primary48 skewed-background-contact"
+					class="w-full h-full min-h-[700px] bg-primary88 dark:bg-primary48 skewed-background-contact"
 				></div>
 			</div>
 			<div class="relative">
-				<div class="w-1/4 mx-auto">
-					<h1 class="text-xl font-medium tracking-wider py-10">CONTACT</h1>
-					<p class="text-base font-normal tracking-wide leading-7">
-						lydianlabstech [at] gmail [dot] com
-					</p>
+				<div class="w-3/4 sm:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto">
+					<h1 class="text-xl font-medium tracking-wider py-10 text-center">CONTACT</h1>
+					<div class="text-base text-center font-normal tracking-wide leading-7">
+						lydianlabstech<br />
+						<p class="font-bold text-primary38">[at]</p>
+						gmail<br />
+						<p class="font-bold text-primary38">[dot]</p>
+						com
+					</div>
 				</div>
 			</div>
 		</section>
