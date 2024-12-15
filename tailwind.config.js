@@ -23,10 +23,11 @@ export default {
 			fontSize: {
 				xs: ['14px', '16px'], // [fontSize, lineHeight]
 				sm: ['16px', '20px'],
-				base: ['20px', '24px'],
-				lg: ['32px', '28px'],
-				xl: ['48px', '32px'],
-				'2xl': ['64px', '36px']
+				md: ['20px', '24px'],
+				base: ['24px', '28px'],
+				lg: ['32px', '32px'],
+				xl: ['48px', '36px'],
+				'2xl': ['64px', '40px']
 			},
 			letterSpacing: {
 				tighter: '0.5px',

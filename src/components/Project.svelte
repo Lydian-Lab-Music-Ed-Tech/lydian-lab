@@ -3,11 +3,13 @@
 	export let index;
 </script>
 
-<div class="grid grid-cols-1 p-8 gap-12 md:grid-cols-[20%_30%_40%]">
-	<div class="w-full border border-primary20 rounded-xl max-h-64 p-[5%] md:p-[10%]">
-		<div class="w-1/2 h-1/2 relative flex items-center justify-center">
+<div class="grid grid-cols-1 p-8 gap-12 md:grid-cols-[25%_40%_35%]">
+	<div class="w-full h-auto border border-primary68 rounded-xl p-[5%] md:p-[10%]">
+		<div class="w-full h-full relative flex items-center justify-center">
 			<p class="absolute top-0 left-0 text-primary60">0{index + 1}.</p>
-			<h3 class="font-light text-xs text-center text-primary70 sm:text-sm md:text-base lg:text-lg">
+			<h3
+				class="font-light text-xs text-center text-primary70 sm:text-sm md:text-md lg:text-base xl:text-lg"
+			>
 				{project.name}
 			</h3>
 		</div>
@@ -29,23 +31,17 @@
 		<a
 			href={project.href}
 			target="_blank"
-			class="p-4 sm:p-6 md:p-8 aspect-auto flex flex-col gap-4 rounded-xl border border-solid border-primary28 group cursor-pointer hover:border-primary48 duration-200"
+			class="p-4 sm:p-6 md:p-8 aspect-auto flex flex-col gap-4 rounded-xl border border-solid border-primary68 group cursor-pointer hover:border-primary48 duration-200"
 			aria-label={`Link to ${project.name}`}
 		>
-			<div
-				class="bg-primary08 grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
-			>
-				<i class={project.icon}></i>
-			</div>
-
-			<p class="text-primary68 sm:text-xs md:text-sm">{project.description}</p>
+			<p class="text-primary98 sm:text-xs md:text-sm">{project.description}</p>
 			<div>
-				<p class="text-primary38">tech-stack:</p>
-				<strong class="text-primary68">{project.technologies}</strong>
+				<p class="text-primary78">tech-stack:</p>
+				<strong class="text-primary78">{project.technologies}</strong>
 			</div>
 			<div class="flex justify-between">
 				<div class="button-div">
-					<p class="relative z-4">View code &rarr;</p>
+					<p class="relative z-4">View code</p>
 				</div>
 			</div>
 		</a>
