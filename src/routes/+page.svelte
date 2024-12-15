@@ -1,5 +1,7 @@
 <script>
 	import Title from '../components/Title.svelte';
+	import Project from '../components/Project.svelte';
+	import projects from '$lib/projects';
 </script>
 
 <main>
@@ -56,20 +58,30 @@
 				</div>
 			</div>
 		</section>
-		<section id="services" class="relative overflow-hidden py-24 h-[700px]">
+		<section id="services" class="relative overflow-hidden py-24 h-full">
 			<div class="absolute inset-0">
 				<div
 					class="w-full h-full min-h-[700px] bg-primary88 dark:bg-primary48 skewed-background-services"
 				></div>
 			</div>
 			<div class="relative">
-				<div class="w-3/4 sm:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto">
+				<div class="w-3/4 sm:w-2/3 lg:w-1/2 xl:w-1/3 mx-auto">
 					<h1 class="text-xl font-medium tracking-wider py-10 text-center">SERVICES</h1>
 					<p class="text-base font-light tracking-wide leading-7">
-						We build custom music exam web applications. If you are a music educator or a small
-						business owner who needs this type of service, please reach out to us for a custom order
-						and quote.
+						At LydianLab, we build custom music exam web applications. We specialize in building
+						user-friendly applications with modern technologies for clients in music education. Our
+						current tech stack relies on TypeScript, Next.js, Firebase, and Tailwind CSS to rapidly
+						develop secure, scalable websites and apps. We are also experienced in incorporating
+						third-party API integrations, authentication, databases, and other business logic. We
+						work closely with each client to deeply understand their needs before architecting
+						tailored solutions. Get in touch to transform your music education web goals into
+						reality.
 					</p>
+				</div>
+				<div class="w-3/4 mx-auto">
+					{#each projects as project, index}
+						<Project {project} {index} />
+					{/each}
 				</div>
 			</div>
 		</section>
@@ -109,10 +121,6 @@
 		clip-path: polygon(0 0%, 100% 5%, 100% 100%, 0% 95%);
 		margin-top: 400px;
 	}
-	/* #section-list section {
-		animation: linear animate-in-and-out;
-		animation-timeline: view();
-	} */
 
 	.revealing-image {
 		view-timeline-name: --revealing-image;
@@ -133,23 +141,28 @@
 		}
 	}
 
-	/* @keyframes animate-in-and-out {
+	#section-list section {
+		animation: linear animate-in-and-out;
+		animation-timeline: view();
+	}
+
+	@keyframes animate-in-and-out {
 		entry 0% {
 			opacity: 0;
-			transform: translateY(100%);
+			transform: translateY(50%);
 		}
 		entry 100% {
 			opacity: 1;
 			transform: translateY(0);
 		}
 
-		exit 0% {
+		/* exit 0% {
 			opacity: 1;
 			transform: translateY(0);
 		}
 		exit 100% {
 			opacity: 0;
 			transform: translateY(-100%);
-		}
-	} */
+		} */
+	}
 </style>
