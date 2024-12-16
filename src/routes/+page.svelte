@@ -2,6 +2,7 @@
 	import Title from '../components/Title.svelte';
 	import Project from '../components/Project.svelte';
 	import projects from '$lib/projects';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <main>
@@ -112,6 +113,19 @@
 						gmail<br />
 						<p class="font-bold text-primary38">[dot]</p>
 						com
+						<div class="mt-8">
+							<a
+								href="https://github.com/Lydian-Lab-Music-Ed-Tech"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="inline-block hover:text-primary68 duration-200"
+								aria-label="Github icon"
+							>
+								<svg class="w-8 h-8" viewBox="0 0 496 512"
+									><path fill="currentColor" d={faGithub.icon[4].toString()}></path></svg
+								>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
