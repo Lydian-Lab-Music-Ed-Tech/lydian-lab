@@ -28,17 +28,36 @@
 						</p>
 
 						<p class="text-sm font-normal tracking-normal leading-7">
-							Our focus is on crafting user-friendly applications with modern technologies for
-							clients in music education.<br />
-							<br />We recently partnered with an acclaimed jazz camp to develop a web application
-							enabling prospective students to take their music theory placement exams online.
-							Building features for musicians and music educators is our specialty.<br />
-							<br />Our main tech stack relies on TypeScript, Next.js, Firebase, and Tailwind CSS to
-							rapidly develop secure, scalable websites and apps. We are also experienced in
+							At LydianLab, our focus is on crafting user-friendly custom web applications with
+							modern technologies for clients in music education.<br />
+							<br />Our current tech stack utilizes TypeScript, Next.js, Firebase, and Tailwind CSS
+							to rapidly develop secure, scalable websites and apps. We are also experienced in
 							incorporating third-party API integrations, authentication, databases, and other
 							business logic. We work closely with each client to deeply understand their needs
-							before architecting customized solutions. Get in touch to transform your music
-							education web goals into reality.
+							before architecting tailored solutions. Get in touch to transform your music education
+							web goals into reality.<br />
+							<br />Kasey Knudsen is a San Francisco-based software developer, saxophonist, composer
+							& educator. She earned her Bachelor of Arts in Jazz Composition from Berklee College
+							of Music in 2002. You can learn more about her background as a musician
+							<a
+								href="https://kaseyknudsenmusic.com/"
+								class="text-primary98 underline font-bold hover:text-primary68 duration-200"
+								target="_blank">here</a
+							>.<br />
+							<br />Brett Eastman is a San Francisco-based software developer, drummer, & composer.
+							He earned his Bachelor of Music in Composition from San Francisco State University in
+							2006. You can learn more about his background as a musician
+							<a
+								href="https://brettaustineastman.com"
+								class="text-primary98 underline font-bold hover:text-primary68 duration-200"
+								target="_blank">here</a
+							>
+							and his background as a software developer
+							<a
+								href="https://bretteastman.dev"
+								class="text-primary98 underline font-bold hover:text-primary68 duration-200"
+								target="_blank">here</a
+							>.
 						</p>
 					</div>
 					<div class="revealing-image relative grid place-items-center py-8">
@@ -67,15 +86,14 @@
 			<div class="relative">
 				<div class="w-3/4 sm:w-2/3 lg:w-1/2 xl:w-1/3 mx-auto">
 					<h1 class="text-xl font-medium tracking-wider py-10 text-center">SERVICES</h1>
-					<p class="text-base font-light tracking-wide leading-7">
+					<p class="text-xs sm:text-sm lg:text-md font-light tracking-wide leading-7">
 						At LydianLab, we build custom music exam web applications. We specialize in building
-						user-friendly applications with modern technologies for clients in music education. Our
-						current tech stack relies on TypeScript, Next.js, Firebase, and Tailwind CSS to rapidly
-						develop secure, scalable websites and apps. We are also experienced in incorporating
-						third-party API integrations, authentication, databases, and other business logic. We
-						work closely with each client to deeply understand their needs before architecting
-						tailored solutions. Get in touch to transform your music education web goals into
-						reality.
+						user-friendly applications with modern technologies. Our current tech stack relies on
+						TypeScript, Next.js, Firebase, and Tailwind CSS to rapidly develop secure, scalable
+						websites and apps. We are also experienced in incorporating third-party API
+						integrations, authentication, databases, and other business logic. We work closely with
+						each client to deeply understand their needs before architecting tailored solutions. Get
+						in touch to transform your music education web goals into reality.
 					</p>
 				</div>
 				<div class="w-3/4 mx-auto">
@@ -85,7 +103,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="contact" class="relative overflow-hidden py-24 h-[700px]">
+		<section id="contact" class="relative overflow-hidden py-24 min-h-[500px]">
 			<div class="absolute inset-0">
 				<div
 					class="w-full h-full min-h-[700px] bg-primary88 dark:bg-primary48 skewed-background-contact"
@@ -118,8 +136,8 @@
 	}
 
 	.skewed-background-contact {
-		clip-path: polygon(0 0%, 100% 5%, 100% 100%, 0% 95%);
-		margin-top: 400px;
+		clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
+		margin-top: 250px;
 	}
 
 	.revealing-image {

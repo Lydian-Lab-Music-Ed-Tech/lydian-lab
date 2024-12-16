@@ -31,7 +31,7 @@
 		<a
 			href={project.href}
 			target="_blank"
-			class="p-4 sm:p-6 md:p-8 aspect-auto flex flex-col gap-4 rounded-xl border border-solid border-primary68 group cursor-pointer hover:border-primary48 duration-200"
+			class="p-4 sm:p-6 md:p-8 aspect-auto flex flex-col gap-4 rounded-xl border border-solid border-primary68 group cursor-pointer hover:border-primary100 duration-200"
 			aria-label={`Link to ${project.name}`}
 		>
 			<p class="text-primary98 sm:text-xs md:text-sm">{project.description}</p>
@@ -72,7 +72,7 @@
 	}
 
 	.button-div:hover {
-		color: var(--primary18);
+		color: var(--primary100);
 		font-weight: 600;
 	}
 
