@@ -3,13 +3,11 @@
 	export let index;
 </script>
 
-<div class="grid grid-cols-1 p-8 gap-12 md:grid-cols-[25%_40%_35%]">
-	<div class="w-full h-auto border border-primary68 rounded-xl p-[5%] md:p-[10%]">
+<div class="grid grid-cols-1 p-8 gap-16 md:gap-12 lg:grid-cols-[25%_40%_35%]">
+	<div class="w-full h-full lg:h-1/2 border border-primary68 rounded-xl p-[5%] md:p-[10%]">
 		<div class="w-full h-full relative flex items-center justify-center">
-			<p class="absolute top-0 left-0 text-primary60">0{index + 1}.</p>
-			<h3
-				class="font-light text-xs text-center text-primary70 sm:text-sm md:text-md lg:text-base xl:text-lg"
-			>
+			<p class="opacity-0 sm:opacity-100 absolute top-0 left-0 text-primary60">0{index + 1}.</p>
+			<h3 class="font-light text-sm text-center text-primary70 sm:text-md lg:text-base xl:text-lg">
 				{project.name}
 			</h3>
 		</div>

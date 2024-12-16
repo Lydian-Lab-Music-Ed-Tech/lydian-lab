@@ -22,7 +22,7 @@
 			<div class="relative z-10">
 				<h1 class="text-xl font-medium tracking-wider text-center py-8">ABOUT US</h1>
 				<div class="w-3/4 mx-auto">
-					<div class="flex justify-between gap-24">
+					<div class="flex flex-col md:flex-row justify-between gap-12 md:gap-24">
 						<p class="text-base font-bold tracking-wide leading-7">
 							Hello, we are LydianLab.<br />
 							<br />A web development agency specializing in building music exam web applications.
@@ -91,7 +91,7 @@
 						your music education web goals into reality.
 					</p>
 				</div>
-				<div class="w-3/4 mx-auto">
+				<div class="w-full mx-auto">
 					{#each projects as project, index}
 						<Project {project} {index} />
 					{/each}
@@ -108,9 +108,9 @@
 				<div class="w-3/4 sm:w-1/2 lg:w-1/3 xl:w-1/4 mx-auto">
 					<h1 class="text-xl font-medium tracking-wider py-10 text-center">CONTACT</h1>
 					<div class="text-base text-center font-normal tracking-wide leading-7">
-						lydianlabstech<br />
+						lydianlabstech
 						<p class="font-bold text-primary38">[at]</p>
-						gmail<br />
+						gmail
 						<p class="font-bold text-primary38">[dot]</p>
 						com
 						<div class="mt-8">
