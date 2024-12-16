@@ -91,7 +91,7 @@
 						your music education web goals into reality.
 					</p>
 				</div>
-				<div class="w-full mx-auto">
+				<div class="w-full lg:w-3/4 mx-auto">
 					{#each projects as project, index}
 						<Project {project} {index} />
 					{/each}
