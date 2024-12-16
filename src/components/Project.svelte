@@ -31,52 +31,21 @@
 		<a
 			href={project.href}
 			target="_blank"
-			class="p-4 sm:p-6 md:p-8 aspect-auto flex flex-col gap-4 rounded-xl border border-solid border-primary68 group cursor-pointer hover:border-primary100 duration-200"
+			class="p-4 sm:p-6 md:p-8 aspect-auto flex flex-col gap-4 rounded-xl border border-solid border-primary68 group cursor-pointer hover:border-primary38 dark:hover:border-primary100 duration-200"
 			aria-label={`Link to ${project.name}`}
 		>
 			<p class="text-primary98 sm:text-xs md:text-sm">{project.description}</p>
 			<div>
-				<p class="text-primary78">tech-stack:</p>
-				<strong class="text-primary78">{project.technologies}</strong>
+				<p class="text-primary18 dark:text-primary78">tech-stack:</p>
+				<strong class="text-primary38 dark:text-primary78">{project.technologies}</strong>
 			</div>
 			<div class="flex justify-between">
-				<div class="button-div">
+				<div
+					class="text-primary08 dark:text-primary78 ml-auto p-3 font-bold text-sm hover:text-primary48 dark:hover:text-primary100 duration-200"
+				>
 					<p class="relative z-4">View code</p>
 				</div>
 			</div>
 		</a>
 	</div>
 </div>
-
-<style>
-	.button-div {
-		margin-left: auto;
-		padding: 0.75rem;
-		border-radius: 0.75rem;
-		cursor: pointer;
-		transition-duration: 200ms;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.button-div::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		height: 100%;
-		right: 100%;
-		width: 102%;
-		background-color: var(--primary68);
-		transition-duration: 300ms;
-		z-index: -1;
-	}
-
-	.button-div:hover {
-		color: var(--primary100);
-		font-weight: 600;
-	}
-
-	.button-div:hover::after {
-		transform: translateX(100%);
-	}
-</style>
