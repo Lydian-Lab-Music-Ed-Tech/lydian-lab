@@ -3,7 +3,7 @@
 
 	let tabs = [
 		{ name: 'ABOUT', link: '#about' },
-		{ name: 'SERVICES', link: '#services' },
+		{ name: 'PROJECTS', link: '#projects' },
 		{ name: 'CONTACT', link: '#contact' }
 	];
 </script>

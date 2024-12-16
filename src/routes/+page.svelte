@@ -34,8 +34,7 @@
 							to rapidly develop secure, scalable websites and apps. We are also experienced in
 							incorporating third-party API integrations, authentication, databases, and other
 							business logic. We work closely with each client to deeply understand their needs
-							before architecting tailored solutions. Get in touch to transform your music education
-							web goals into reality.<br />
+							before architecting tailored solutions.<br />
 							<br />Kasey Knudsen is a San Francisco-based software developer, saxophonist, composer
 							& educator. She earned her Bachelor of Arts in Jazz Composition from Berklee College
 							of Music in 2002. You can learn more about her background as a musician
@@ -77,7 +76,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="services" class="relative overflow-hidden py-24 h-full">
+		<section id="projects" class="relative overflow-hidden py-24 h-full">
 			<div class="absolute inset-0">
 				<div
 					class="w-full h-full min-h-[700px] bg-primary88 dark:bg-primary48 skewed-background-services"
@@ -85,15 +84,10 @@
 			</div>
 			<div class="relative">
 				<div class="w-3/4 sm:w-2/3 lg:w-1/2 xl:w-1/3 mx-auto">
-					<h1 class="text-xl font-medium tracking-wider py-10 text-center">SERVICES</h1>
+					<h1 class="text-xl font-medium tracking-wider py-10 text-center">PROJECTS</h1>
 					<p class="text-xs sm:text-sm lg:text-md font-light tracking-wide leading-7">
-						At LydianLab, we build custom music exam web applications. We specialize in building
-						user-friendly applications with modern technologies. Our current tech stack relies on
-						TypeScript, Next.js, Firebase, and Tailwind CSS to rapidly develop secure, scalable
-						websites and apps. We are also experienced in incorporating third-party API
-						integrations, authentication, databases, and other business logic. We work closely with
-						each client to deeply understand their needs before architecting tailored solutions. Get
-						in touch to transform your music education web goals into reality.
+						At LydianLab, we build custom music exam web applications. Get in touch to transform
+						your music education web goals into reality.
 					</p>
 				</div>
 				<div class="w-3/4 mx-auto">
