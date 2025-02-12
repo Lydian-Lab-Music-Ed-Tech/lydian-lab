@@ -1,8 +1,13 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import Header from '../components/Header.svelte';
-	/** @type {{children?: import('svelte').Snippet}} */
-	let { children } = $props();
+	import type { Snippet } from 'svelte';
+
+	interface Props {
+		children?: Snippet;
+	}
+
+	let { children }: Props = $props();
 	let y = $state(0);
 	let currentYear = new Date().getFullYear();
 </script>
