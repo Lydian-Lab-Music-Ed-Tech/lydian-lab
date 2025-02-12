@@ -1,6 +1,10 @@
 <script lang="ts">
-	export let project;
-	export let index;
+	interface Props {
+		project: any;
+		index: any;
+	}
+
+	let { project, index }: Props = $props();
 </script>
 
 <div class="grid grid-cols-1 p-8 gap-16 md:gap-12 lg:grid-cols-[25%_40%_35%]">
