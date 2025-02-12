@@ -2,7 +2,7 @@
 	import Title from '../components/Title.svelte';
 	import Project from '../components/Project.svelte';
 	import projects from '$lib/projects';
-	import { faGithub } from '@fortawesome/free-brands-svg-icons';
+	import Icon from '../components/Icon.svelte';
 </script>
 
 <main>
@@ -122,9 +122,7 @@
 								class="inline-block hover:text-primary68 duration-200"
 								aria-label="Github icon"
 							>
-								<svg class="w-8 h-8" viewBox="0 0 496 512"
-									><path fill="currentColor" d={faGithub.icon[4].toString()}></path></svg
-								>
+								<Icon name="github" className="fill-current" size="36" />
 							</a>
 						</div>
 					</div>
