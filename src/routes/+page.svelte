@@ -10,7 +10,8 @@
 		<Title />
 	</div>
 	<div id="section-list" class="flex flex-col -space-y-16 text-primary00 dark:text-primary94">
-		<section id="about" class="relative py-24">
+		<section id="about"></section>
+		<section class="relative py-24">
 			<!-- Skewed background with contained overflow -->
 			<div class="absolute inset-0 overflow-hidden">
 				<div
